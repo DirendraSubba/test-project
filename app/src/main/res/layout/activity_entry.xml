@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.laxlimboo.testproject.ui.activity.ReportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_20dp">
+
+        <com.laxlimboo.testproject.ui.custom.SpinnerEntryView
+            android:id="@+id/spinner_entry_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Location"
+            app:titleTextColor="@android:color/holo_orange_dark"
+            app:url="http://pastebin.com/raw/5vDZpqPr"></com.laxlimboo.testproject.ui.custom.SpinnerEntryView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/trailer_number"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <com.laxlimboo.testproject.ui.custom.SpinnerEntryView
+            android:id="@+id/spinner_entry_carrier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Carrier"
+            app:titleTextColor="@android:color/holo_orange_dark"
+            app:url="http://pastebin.com/raw/sCG7Xmuw"></com.laxlimboo.testproject.ui.custom.SpinnerEntryView>
+
+        <com.laxlimboo.testproject.ui.custom.SpinnerEntryView
+            android:id="@+id/spinner_entry_trailer_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Trailer Status"
+            app:titleTextColor="@android:color/holo_orange_dark"
+            app:url="http://pastebin.com/raw/H14dGMBV"></com.laxlimboo.testproject.ui.custom.SpinnerEntryView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/submit" />
+
+</android.support.design.widget.CoordinatorLayout>

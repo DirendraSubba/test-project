@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="trailer_number">Trailer Number</string>
+    <string name="submit">Submit</string>
+    <string name="report">View Report</string>
+    <string name="entry">Create Entry</string>
+
+    <string name="trailer_id">TRAILER ID</string>
+    <string name="trailer_status">TRAILER STATUS</string>
+    <string name="trailer_currentTID">CURRENT TID</string>
+    <string name="trailer_facilityName">FACILITY NAME</string>
+    <string name="trailer_lastAction">LAST ACTION</string>
+    <string name="trailer_last_action_by">LAST ACTION BY</string>
+    <string name="lastActionOn">LAST ACTION ON</string>
+    <string name="readyForRack">READY FOR RACK</string>
+    <string name="readyForRackSince">READY FOR RACK SINCE</string>
+    <string name="requestRack">REQUEST RACK</string>
+    <string name="requestedToRcack">REQUESTED TO RACK</string>
+    <string name="comment">COMMENT</string>
+    <string name="location">LOCATION</string>
+    <string name="action_search">Search</string>
+</resources>

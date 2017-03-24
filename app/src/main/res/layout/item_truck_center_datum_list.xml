@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_trailerID"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_id"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_trailerStatus"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_status"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_currentTID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_currentTID"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_facilityName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_facilityName"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_lastAction"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_lastAction"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_lastActionBy"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/trailer_last_action_by"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_lastActionOn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/lastActionOn"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/location"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_readyForRack"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/readyForRack"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_readyForRackSince"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/readyForRackSince"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_requestedRack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/requestRack"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_requestedToRack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/requestedToRcack"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_Comment"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/comment"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark" />
+
+</LinearLayout>
